@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 🚩 Shopping Mall
+<p align="center">
+  <br>
+  <img src="src/imgs/portfolio_7.png">
+  <img src="src/imgs/portfolio_7-1.png">
+  <br>
+</p>
+  <br>
+* 데모앱🎬 : https://sc-shoopingcart.netlify.app
+  <br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
+## 📌 프로젝트 소개
+<p align="center">
+  <br>
+shopping 웹사이트를 구현하면서 느꼈던 component가 많아질수록 props 통해<br>
+state들을 공유하는 방식에 불편함을 느끼고 상태관리 라이브러리인 redux-toolkit 사용한 프로젝트입니다. 
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+* 개발 인원: 1명(개인 프로젝트)
+* Deployment: github
+* FrontEnd: React-Router-Dom, redux-toolkit, MDBootstrap
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🔨 기술 스택
 
-### `npm test`
+|    React    | 
+| :--------:  |
+|  ![react]   |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## 🔍 구현 기능
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 카트에 아이템 담기, 삭제
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 아이템 차순 정렬
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 아이템 수량 증가, 감소
 
-### `npm run eject`
+#### 아이템 총 수량, 가격을 동적 구현
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ✏️ 배운 점 & 아쉬운 점
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="justify">
+부모로부터 값을 물려받는 작업은 props를 통해 이루어지는데 부모와 자식 사이에 여러 컴포넌트가 포함되어 있다면 포함된 컴포넌트에 모두 props를 전달해 주어야 합니다.<br>
+  
+사이에 있는 컴포넌트 중 해당 props가 필요하지도 않은데 자식 컴포넌트에 props를 전달하기 위해 전달 과정에 포함된 컴포넌트가 있고
+component에 양이 늘어날수록 props로 state를 전달하는 방식이 비효율적이라 느꼈습니다. <br>
+  
+props drilling의 깊이가 깊어질수록 데이터를 추적하기가 어려워진다는 문제에서 벗어나기 위해
+상태관리 라이브러리인 redux-toolkit를 학습할 겸 redux-toolkit를 사용해서 간단한 shopping cart를 구현했습니다.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+확실히 사용하기 정말 편리하고, 가독성도 너무 좋아서 규모있는 프로젝트를 하게 된다면 Redux Toolkit을 쓰지 않을까 느꼈습니다.
 
-## Learn More
+  
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- Stack Icon Refernces -->
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[react]: src/imgs/react.svg
