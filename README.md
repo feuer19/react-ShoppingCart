@@ -1,4 +1,4 @@
-# 🚩 Shopping Mall
+# 🚩 Shopping Cart
 <p align="center">
   <br>
   <img src="src/imgs/portfolio_7.png">
